@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        border: 1px solid tomato;
+        max-width: 1040px;
+        margin: 0 auto;
+       }
+       .img-container{
+        display: flex;
+       }
+       .img-container img{
+        width: 50%;
+       }
+       @media screen and (max-width: 576px) {
+        .img-container{
+            flex-direction: column-reverse;
+            background-color: brown;
+            width: 100%;
+        }
+       }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="img-container">
+            <div>
+                <img src="Images/img.jpg" alt="">
+            </div>
+            <div>
+                <img src="Images/jk.jpeg" alt="">
+            </div>
+        </div>
+        
+        
+    </main>
+</body>
+</html>

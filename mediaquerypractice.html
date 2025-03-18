@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .box{
+        display: flex;
+       }
+        .hk{
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+            border: 3px solid grey;
+        }
+        .hb{ 
+            height: 350px;
+            width: 370px;
+            background-color: rgb(13, 50, 50);
+            border: 3px solid rgb(239, 53, 53);
+        }
+        .img-container img{
+            width: 100vw;
+            height: 100vw;
+            border: 6px soli
+
+        }
+        .layout2{
+            display: flex;
+        }
+        .layout3{
+            display: flex;
+        }
+        .layout-3{
+            display: flex;
+        }
+        .con{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            text-align: center;
+            margin-top: 4px;
+            
+        }
+        .item{
+            height: 100px;
+            width: 80px;
+            background-color: aquamarine;
+            border-radius: 8px;
+        }
+        @media screen and (max-width: 576px) {
+            .box{
+                flex-direction: column;
+            }
+        }
+        @media screen and (max-width: 576px) {
+            width: 100vw;
+            height: 100vw;
+        }
+        @media screen and (max-width: 576px) {
+            .layout2{
+                flex-direction: column;
+            } 
+            .layout3{
+                flex-direction: column;
+            }
+            .layout-3{
+                flex-direction: column-reverse;
+            }    
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="hk">
+            <p>Hare Krishna</p>
+        </div>
+        <div class="hb">
+            <p>Haribol</p>
+        </div>
+    </div>
+    <div class="img-container">
+        <img src="Images/img.jpg" alt="">
+    </div>
+    <div class="layout2">
+        <img src="Images/img.jpg" alt="">
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nisi a totam dignissimos dolorum ipsa natus tenetur atque quis consequuntur eaque alias aut, est pariatur harum! Excepturi dignissimos vero dolorum.</p> 
+            <button>Read more</button>
+        </div>    
+    </div>
+    <div class="layout2">
+        <img src="Images/img.jpg" alt="">
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nisi a totam dignissimos dolorum ipsa natus tenetur atque quis consequuntur eaque alias aut, est pariatur harum! Excepturi dignissimos vero dolorum.</p> 
+            <button>Read more</button>
+        </div>     
+    </div>
+    <div class="layout3">
+        <img src="Images/img.jpg" alt="">    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa doloribus esse sint repellat nisi possimus molestias animi libero. Magni reiciendis cumque mollitia exercitationem? Rem odio deleniti consequatur accusamus sed ad optio expedita esse nostrum dignissimos ut autem aut vel cumque, eius molestiae saepe minima cupiditate nemo! Ipsam sapiente eligendi unde ab enim tempora aperiam, quis corrupti repudiandae vero accusantium dolore veritatis pariatur mollitia molestiae nisi amet iusto? Delectus voluptatibus esse hic praesentium porro dolore. Laudantium necessitatibus quia nemo saepe tenetur dolore, animi quis reprehenderit doloribus, dolorum, exercitationem corporis vero expedita voluptate quisquam? Quam doloremque iusto officia quas in dolores dignissimos.</p>
+    </div>
+    <div class="layout-3">
+            
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa doloribus esse sint repellat nisi possimus molestias animi libero. Magni reiciendis cumque mollitia exercitationem? Rem odio deleniti consequatur accusamus sed ad optio expedita esse nostrum dignissimos ut autem aut vel cumque, eius molestiae saepe minima cupiditate nemo! Ipsam sapiente eligendi unde ab enim tempora aperiam, quis corrupti repudiandae vero accusantium dolore veritatis pariatur mollitia molestiae nisi amet iusto? Delectus voluptatibus esse hic praesentium porro dolore. Laudantium necessitatibus quia nemo saepe tenetur dolore, animi quis reprehenderit doloribus, dolorum, exercitationem corporis vero expedita voluptate quisquam? Quam doloremque iusto officia quas in dolores dignissimos.</p>
+        <img src="Images/img.jpg" alt="">
+        </div>
+        
+        <div class="con">
+            <div class="item">Item - 1</div>
+            <div class="item">Item - 2</div>
+            <div class="item">Item - 3</div>
+            <div class="item">Item - 4</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 6</div>
+            <div class="item">Item - 7</div>
+            <div class="item">Item - 8</div>
+            <div class="item">Item - 9</div>
+            <div class="item">Item - 10</div>    
+        </div>
+        
+</body>
+</html>
